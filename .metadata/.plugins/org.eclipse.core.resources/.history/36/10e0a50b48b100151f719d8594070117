@@ -1,7 +1,5 @@
 package mapreduce;
-/*there are 4 contract action type
- * this class calculate contract action types with their count
- * */
+
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.StringTokenizer;

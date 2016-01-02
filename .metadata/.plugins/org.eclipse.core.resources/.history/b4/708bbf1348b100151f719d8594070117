@@ -1,7 +1,5 @@
 package mapreduce;
-/*this class is calculate avarage of "dolarsobligated" column
- * it tooks column values and remove the quotes and makes calculate.
- * */
+
 import java.io.IOException;
 import java.util.Iterator;
 

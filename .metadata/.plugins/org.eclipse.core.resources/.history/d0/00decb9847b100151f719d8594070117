@@ -1,9 +1,10 @@
 package mapreduce;
-/*this class is calculate avarage of "dolarsobligated" column
- * it tooks column values and remove the quotes and makes calculate.
- * */
+
+import java.util.List;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Iterator;
+
 
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.DoubleWritable;
@@ -22,7 +23,7 @@ import org.apache.hadoop.mapred.Reporter;
 import org.apache.hadoop.mapred.TextInputFormat;
 import org.apache.hadoop.mapred.TextOutputFormat;
 
-public class AvarageDollarsObligated {
+public class StandartDeviationOfDollarsObligated {
 
 	// Mapper class
 	public static class E_EMapper extends MapReduceBase
@@ -38,7 +39,6 @@ public class AvarageDollarsObligated {
 		public void map(LongWritable key, Text value, OutputCollector<IntWritable, DoubleWritable> output,
 				Reporter reporter) throws IOException {
 
-			//fix empty line 
 			String line = value.toString();
 			if (line == null) {
 				line = "\"0\"";
@@ -77,28 +77,46 @@ public class AvarageDollarsObligated {
 	public static class E_EReduce extends MapReduceBase
 			implements Reducer<IntWritable, DoubleWritable, IntWritable, DoubleWritable> {
 		// private final static IntWritable one = new IntWritable(1);
-		private final static DoubleWritable avarage = new DoubleWritable();
+		private final static DoubleWritable standartDeviation = new DoubleWritable();
 
 		// Reduce function
 		public void reduce(IntWritable key, Iterator<DoubleWritable> values,
 				OutputCollector<IntWritable, DoubleWritable> output, Reporter reporter) throws IOException {
 
 			double sum = 0;
+			double sum1 = 0;
 			int count = 0;
+			double avarage1 = 0;
+			double stdDev=0;
+			double v = 0;
+			List<Double> list = new ArrayList<Double>();
+			
 			while (values.hasNext()) {
-				sum += values.next().get();
+				v = values.next().get();
+				sum += v;
+				list.add(v);
 				count++;
 			}
-			avarage.set(sum / (double) count);
-			output.collect(key, avarage);
+			
+			avarage1 = sum / (double) count;
+
+			for(int i=0;i<list.size();i++)
+			{
+				sum1 += Math.pow((avarage1 - list.get(i)),2);
+			}
+			
+			stdDev = Math.sqrt(sum1 / (count - 1)); 
+			standartDeviation.set(stdDev);
+			output.collect(key, standartDeviation);
+
 		}
 
 	}
 
 	public static void main(String args[]) throws Exception {
-		JobConf conf = new JobConf(AvarageDollarsObligated.class);
+		JobConf conf = new JobConf(StandartDeviationOfDollarsObligated.class);
 
-		conf.setJobName("Avarage_dollars_obligated");
+		conf.setJobName("Standart_deviation_dollars_obligated");
 		conf.setOutputKeyClass(IntWritable.class);
 		conf.setOutputValueClass(DoubleWritable.class);
 		conf.setMapperClass(E_EMapper.class);

@@ -1,5 +1,9 @@
 package mapreduce;
 
+
+/*this class is calculate standart deviation of "dolarsobligated" column
+ * it tooks column values and remove the quotes and makes calculate.
+ * */
 import java.util.List;
 import java.io.IOException;
 import java.util.ArrayList;

@@ -1,5 +1,8 @@
 package mapreduce;
 
+/*this class is index every depertmant alphabetically with their counts
+ * takes their value, if value is empty then it write 3 different word according the case
+ * */
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -39,13 +42,13 @@ public class IndexColumnList {
 				throws IOException {
 			String line = value.toString();
 			if (line == null) {
-				line = "\"bombos\"";
+				line = "\"empty\"";
 			}
 			
 			String[] split = line.split(",");
 			
 			if (split.length < 6) {
-				word.set("\"bos\"");
+				word.set("\"emptyval\"");
 				output.collect(word, one);
 			} else {
 				String lasttoken = null;
@@ -62,7 +65,7 @@ public class IndexColumnList {
 					}
 					output.collect(word, one);
 				} else {
-					word.set("\"bos2\"");
+					word.set("\"emptyvalue\"");
 					output.collect(word, one);
 				}
 			}

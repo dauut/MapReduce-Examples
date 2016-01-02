@@ -1,8 +1,5 @@
 package mapreduce;
 
-
-/*after making jar files, please run Main class then you'll see a basic manu.
- * */
 import java.util.Scanner;
 
 public class Main {

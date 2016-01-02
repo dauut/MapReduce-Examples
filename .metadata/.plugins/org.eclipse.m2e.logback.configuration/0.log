@@ -51,3 +51,35 @@
 2016-01-02 13:16:32,315 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/dauut/Dropbox/Ofis/GitHub/MapReduce-Examples/MapReduce-Examples/src/main/resources
 2016-01-02 13:16:32,316 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-01-02 13:16:32,317 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/dauut/Dropbox/Ofis/GitHub/MapReduce-Examples/MapReduce-Examples/src/test/resources
+2016-01-02 13:54:38,816 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-02 13:54:38,820 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/dauut/Dropbox/Ofis/GitHub/MapReduce-Examples/MapReduce-Examples/src/main/resources
+2016-01-02 13:54:38,822 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-02 13:54:38,822 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/dauut/Dropbox/Ofis/GitHub/MapReduce-Examples/MapReduce-Examples/src/test/resources
+2016-01-02 13:55:29,913 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-02 13:55:29,918 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/dauut/Dropbox/Ofis/GitHub/MapReduce-Examples/MapReduce-Examples/src/main/resources
+2016-01-02 13:55:29,920 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-02 13:55:29,921 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/dauut/Dropbox/Ofis/GitHub/MapReduce-Examples/MapReduce-Examples/src/test/resources
+2016-01-02 13:56:38,902 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-02 13:56:38,902 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/dauut/Dropbox/Ofis/GitHub/MapReduce-Examples/MapReduce-Examples/src/main/resources
+2016-01-02 13:56:38,904 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-02 13:56:38,904 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/dauut/Dropbox/Ofis/GitHub/MapReduce-Examples/MapReduce-Examples/src/test/resources
+2016-01-02 13:57:05,673 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-02 13:57:05,673 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/dauut/Dropbox/Ofis/GitHub/MapReduce-Examples/MapReduce-Examples/src/main/resources
+2016-01-02 13:57:05,676 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-02 13:57:05,676 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/dauut/Dropbox/Ofis/GitHub/MapReduce-Examples/MapReduce-Examples/src/test/resources
+2016-01-02 13:57:49,776 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-02 13:57:49,777 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/dauut/Dropbox/Ofis/GitHub/MapReduce-Examples/MapReduce-Examples/src/main/resources
+2016-01-02 13:57:49,779 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-02 13:57:49,780 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/dauut/Dropbox/Ofis/GitHub/MapReduce-Examples/MapReduce-Examples/src/test/resources
+2016-01-02 13:58:03,331 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-02 13:58:03,332 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/dauut/Dropbox/Ofis/GitHub/MapReduce-Examples/MapReduce-Examples/src/main/resources
+2016-01-02 13:58:03,333 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-02 13:58:03,334 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/dauut/Dropbox/Ofis/GitHub/MapReduce-Examples/MapReduce-Examples/src/test/resources
+2016-01-02 13:58:51,494 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-02 13:58:51,495 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/dauut/Dropbox/Ofis/GitHub/MapReduce-Examples/MapReduce-Examples/src/main/resources
+2016-01-02 13:58:51,496 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-02 13:58:51,496 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/dauut/Dropbox/Ofis/GitHub/MapReduce-Examples/MapReduce-Examples/src/test/resources
+2016-01-02 13:59:54,376 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-02 13:59:54,376 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/dauut/Dropbox/Ofis/GitHub/MapReduce-Examples/MapReduce-Examples/src/main/resources
+2016-01-02 13:59:54,379 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-02 13:59:54,380 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/dauut/Dropbox/Ofis/GitHub/MapReduce-Examples/MapReduce-Examples/src/test/resources
